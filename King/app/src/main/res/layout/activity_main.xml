@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_bg"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/login_06"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/login_06" />
+
+    <ImageView
+        android:id="@+id/login_03"
+        android:layout_width="60dp"
+        android:layout_height="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="7dp"
+        android:layout_marginEnd="7dp"
+        android:src="@drawable/login_03" />
+
+
+    <ImageView
+        android:id="@+id/login_11"
+        android:layout_width="61dp"
+        android:layout_height="66dp"
+        android:layout_below="@+id/login_03"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="10dp"
+        android:src="@drawable/login_11" />
+
+    <ImageView
+        android:id="@+id/login_15"
+        android:layout_width="61dp"
+        android:layout_height="66dp"
+        android:layout_below="@+id/login_11"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="10dp"
+        android:src="@drawable/login_15" />
+
+    <ImageView
+        android:id="@+id/login_18"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_above="@+id/login_22"
+        android:src="@drawable/login_18" />
+
+    <ImageView
+        android:id="@+id/login_22"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="90dp"
+        android:src="@drawable/login_22" />
+
+</RelativeLayout>

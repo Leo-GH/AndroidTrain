@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/libai_bg"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/libai_01"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/libai_01" />
+
+    <ImageView
+        android:id="@+id/libai_03"
+        android:layout_width="400dp"
+        android:layout_height="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/libai_03" />
+
+    <LinearLayout
+        android:id="@+id/linear_1"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/libai_01"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/libai_09"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/libai_09" />
+
+        <ImageView
+            android:id="@+id/libai_20"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/libai_20" />
+
+        <ImageView
+            android:id="@+id/libai_26"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/libai_26" />
+
+        <ImageView
+            android:id="@+id/libai_35"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/libai_35" />
+
+        <ImageView
+            android:id="@+id/libai_41"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/libai_41" />
+
+        <ImageView
+            android:id="@+id/libai_45"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/libai_45" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/libai_02"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginBottom="10dp"
+        android:layout_toRightOf="@+id/linear_1"
+        android:src="@drawable/libai_02" />
+
+    <RelativeLayout
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/libai_03"
+        android:layout_alignParentRight="true">
+
+
+        <ImageView
+            android:id="@+id/libai_06"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:src="@drawable/libai_06" />
+
+        <ImageView
+            android:id="@+id/libai_07"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/libai_06"
+            android:src="@drawable/libai_07" />
+
+        <LinearLayout
+            android:id="@+id/linear_2"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/libai_07"
+            android:layout_toRightOf="@+id/libai_06"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:src="@drawable/libai_12" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:src="@drawable/libai_19" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:src="@drawable/libai_22" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:src="@drawable/libai_27" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:src="@drawable/libai_29" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:layout_below="@+id/libai_07"
+            android:layout_toRightOf="@+id/linear_2"
+            android:src="@drawable/libai_14" />
+
+        <LinearLayout
+            android:id="@+id/linear_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/linear_2"
+            android:layout_centerInParent="true"
+            android:layout_centerHorizontal="true"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="1dp"
+                android:layout_height="100dp"
+                android:layout_weight="1.7"
+                android:src="@drawable/libai_37" />
+
+            <ImageView
+                android:layout_width="1dp"
+                android:layout_height="120dp"
+                android:layout_weight="2"
+                android:src="@drawable/libai_33" />
+
+            <ImageView
+                android:layout_width="1dp"
+                android:layout_height="100dp"
+                android:layout_weight="1.7"
+                android:src="@drawable/libai_38" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_below="@+id/linear_3"
+            android:layout_centerInParent="true"
+            android:src="@drawable/libai_46" />
+
+    </RelativeLayout>
+
+</RelativeLayout>
