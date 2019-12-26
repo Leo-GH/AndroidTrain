@@ -74,6 +74,7 @@
                 android:textSize="20sp" />
 
             <EditText
+                android:background="@drawable/edit_style"
                 android:layout_marginStart="15dp"
                 android:hint="请输入您的年龄"
                 android:textSize="20sp" />
@@ -94,6 +95,7 @@
 
             <EditText
                 android:id="@+id/et_height"
+                android:background="@drawable/edit_style"
                 android:layout_marginStart="15dp"
                 android:hint="请输入您的身高"
                 android:inputType="number"
@@ -114,6 +116,7 @@
                 android:textSize="20sp" />
 
             <EditText
+                android:background="@drawable/edit_style"
                 android:id="@+id/et_weight"
                 android:layout_marginStart="15dp"
                 android:hint="请输入您的体重"
@@ -152,6 +155,7 @@
         android:textSize="20sp" />
 
     <TextView
+        android:id="@+id/bmi_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="15dp"
